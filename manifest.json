@@ -1,0 +1,25 @@
+{
+    "name": "Amazon Q&A Section Teleporter",
+    "description": "An extension that brings up the Amazon product's Q&A page when you click on the button.",
+    "version": "1.0",
+
+    "manifest_version": 3,
+
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icons/icon16.png",
+            "24": "icons/icon24.png",
+            "32": "icons/icon32.png",
+            "36": "icons/icon36.png",
+            "48": "icons/icon48.png",
+            "64": "icons/icon64.png",
+            "128": "icons/icon128.png"
+        }
+    },
+
+    "permissions": [
+        "tabs",
+        "activeTab"
+    ]
+}
