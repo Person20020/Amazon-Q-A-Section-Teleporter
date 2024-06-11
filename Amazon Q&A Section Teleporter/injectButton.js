@@ -4,13 +4,16 @@ function injectButton() {
     injectElement.className = 'questionSection-button';
     injectElement.innerHTML = 'Go To Questions Section';
     injectElement.id = 'questionSection-button';
-    injectElement.style.fontSize = '20px';
+
+    // Style
+    injectElement.style.fontSize = '15x';
     injectElement.style.backgroundColor = '#252f3e';
     injectElement.style.color = '#ffffff';
-    injectElement.style.borderRadius = '15px';
+    injectElement.style.borderRadius = '10px';
 
-    // Append the button to the site (change this to add it by the title)
-    document.body.appendChild(injectElement);
+    // Find the title element and insert the button after it
+    const targetElement = document.getElementById('title_feature_div');
+    targetElement.insertAdjacentElement('afterend', injectElement);
 }
 
 function goToQandA() {
@@ -33,4 +36,6 @@ function goToQandA() {
 
 injectButton();
                 
-document.getElementById('questionSection-button').addEventListener('click', goToQandA);
+document.getElementById('questionSection-button').addEventListener('click', function() {
+    alert("test");
+});
