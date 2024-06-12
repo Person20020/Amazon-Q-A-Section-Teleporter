@@ -16,26 +16,24 @@ function injectButton() {
     targetElement.insertAdjacentElement('afterend', injectElement);
 }
 
+// Use the url to find the url for the questions page and go there
 function goToQandA() {
-    chrome.tabs.query({active:true, currentWindow:true}, function(tabs) {
-        const url = tabs[0].url; // Get the URL from the first tab object
-        const regex = new RegExp("^(http[s]?://[^/]+)/(?:.+?/)?(?:dp|gp/product|asin)/(?:.+?/)?([a-zA-Z0-9]{10})(?:[/?]|$)", "i");
-        const matches = url.match(regex);
-        if (matches && matches[1] && matches[2]) { 
-            var scheme_and_host = matches[1];
-            var asin = matches[2];
-            var questions_url = `${scheme_and_host}/ask/questions/asin/${asin}`;
-            chrome.tabs.create({url: questions_url}); // Use chrome.tabs.create to open the URL in a new tab
-        }
-        else {
-                alert("URL does not match expected pattern");
-        }
-    });
+    const url = document.URL;
+    const regex = new RegExp("^(http[s]?://[^/]+)/(?:.+?/)?(?:dp|gp/product|asin)/(?:.+?/)?([a-zA-Z0-9]{10})(?:[/?]|$)", "i");
+    const matches = url.match(regex);
+    if (matches && matches[1] && matches[2]) { 
+        var scheme_and_host = matches[1];
+        var asin = matches[2];
+        var questions_url = `${scheme_and_host}/ask/questions/asin/${asin}`;
+        window.open(questions_url, '_blank');
+    }
+    else {
+            alert("URL does not match expected pattern");
+    }
 }
 
-
+// Call the function to inject the button
 injectButton();
-                
-document.getElementById('questionSection-button').addEventListener('click', function() {
-    alert("test");
-});
+
+// Add an event listener to call the function to go to the questions page when the button is clicked
+document.getElementById('questionSection-button').addEventListener('click', goToQandA);
