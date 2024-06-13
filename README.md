@@ -16,4 +16,4 @@ To use the extension, when you are on an Amazon product page there will be a but
 ![popup](https://github.com/Person20020/Amazon-Q-A-Section-Teleporter/assets/141215551/e0891d8f-0a23-4370-bc93-13c56eef8218)  
   
   
-I modified a script that was posted on reddit ([source](https://www.reddit.com/r/AmazonVine/comments/14aynxt/comment/jx7pyyb/)) as a bookmarklet, and turned it into a chrome extension. I had to basically rewrite the whole thing, and just used it to base the logic on.
+I had to basically rewrite the whole thing, but I used this script that was posted on reddit ([source](https://www.reddit.com/r/AmazonVine/comments/14aynxt/comment/jx7pyyb/)) and just used it to base the logic on.
