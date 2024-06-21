@@ -1,5 +1,5 @@
 # Amazon-Q-A-Section-Teleporter  
-With this Chrome extension, you can quickly and easily jump to the Amazon Customer Questions &amp; Answers page from the product page with a single click. Currently, the extension only works on the United States Amazon store page, but support for other countries will be coming soon.
+With this Chrome extension, you can quickly and easily jump to the Amazon Customer Questions &amp; Answers page from the product page with a single click. Currently, the extension only works on the United States Amazon store page, but support for other countries will be coming soon. The extension has only been tested on Chrome, Brave, and Edge.
   
 ![Icon 300](https://github.com/Person20020/Amazon-Q-A-Section-Teleporter/assets/141215551/cdc4dfd6-57dd-4f19-9800-a2862b90a80b)  
 
