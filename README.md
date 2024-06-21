@@ -13,12 +13,12 @@ About a year ago, Amazon began to remove a button that takes you to the Q&amp;A 
 ## Installation  
 To install the extension, follow these steps:  
 1. Download and extract this repository (click on the green "Code" button and then "Download ZIP") or clone this repository.  
-2. Open your browser of choice and navigate to the browser extension page (for Chrome it is at chrome://extensions).  
-3. Enable developer mode by toggling the switch in the top right corner (in Chrome or Brave. In Edge, the switch is in the side bar. I haven't used others). Three new buttons will appear in the top left corner. (in Brave or Chrome. In Edge it will appear at the top
+2. Open your browser of choice and navigate to the browser extension page (for Chrome it is at 'chrome://extensions').  
+3. Enable developer mode by toggling the switch in the top right corner (in Chrome or Brave. In Edge, the switch is in the side bar. I haven't used others). Three new buttons will appear in the top left corner. (in Brave or Chrome. In Edge, it will appear at the top
 page.)  
 4. Click the "Load unpacked" button and select the "Amazon Q&amp;A Section Teleporter" folder from inside of the downloaded folder.  
   
-Once the extension is loaded, you should see its icon in the extensions menu and then you can pin it for easy access.  
+Once the extension is loaded, you should see its icon in the extensions menu, and then you can pin it for easy access.  
   
 ## Usage  
 To use the extension, follow these steps:  
