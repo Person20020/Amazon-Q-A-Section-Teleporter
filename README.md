@@ -33,8 +33,6 @@ To use the extension, follow these steps:
   
 https://github.com/Person20020/Amazon-Q-A-Section-Teleporter/assets/141215551/5583886e-f005-4c1c-aeb3-561ea3815c56  
 
-## Future Improvements  
-I am already working on making the extension compatible with Amazon store pages for other countries. In the near future, I will also be adding an option to block the extension from injecting the button into the page if it is not commonly used, or is causing problems.    
 ## Acknowledgements  
 I had to basically rewrite the whole thing, but I used [this script](https://www.reddit.com/r/AmazonVine/comments/14aynxt/comment/jx7pyyb/) that was posted on Reddit on which to base the logic for the scripts in the extension.  
 This extension was made as the final project for the CS50 Introduction to Computer Science course. I would also like to thank everyone who helped to make the CS50 course, as I would never have gotten this far without it.
