@@ -1,4 +1,6 @@
 # Amazon-Q-A-Section-Teleporter  
+### ⚠️As of August 10 2024, it seems that Amazon has removed the customer Q&A section altogether, and this plugin will no longer work.
+
 With this Chrome extension, you can quickly and easily jump to the Amazon Customer Questions &amp; Answers page from the product page with a single click. Currently, the extension only works on the United States Amazon store page, but support for other countries will be coming soon. The extension has only been tested on Chrome, Brave, and Edge.
   
 ![Icon 300](https://github.com/Person20020/Amazon-Q-A-Section-Teleporter/assets/141215551/cdc4dfd6-57dd-4f19-9800-a2862b90a80b)  
@@ -32,11 +34,7 @@ To use the extension, follow these steps:
 https://github.com/Person20020/Amazon-Q-A-Section-Teleporter/assets/141215551/5583886e-f005-4c1c-aeb3-561ea3815c56  
 
 ## Future Improvements  
-I am already working on making the extension compatible with Amazon store pages for other countries. In the near future, I will also be adding an option to block the extension from injecting the button into the page if it is not commonly used, or is causing problems.  
-  
-## Contributing  
-Since this is a project that I am doing for fun, and I have a limited sample to test on, the best way to help is to report any bugs that you find.  
-  
+I am already working on making the extension compatible with Amazon store pages for other countries. In the near future, I will also be adding an option to block the extension from injecting the button into the page if it is not commonly used, or is causing problems.    
 ## Acknowledgements  
 I had to basically rewrite the whole thing, but I used [this script](https://www.reddit.com/r/AmazonVine/comments/14aynxt/comment/jx7pyyb/) that was posted on Reddit on which to base the logic for the scripts in the extension.  
 This extension was made as the final project for the CS50 Introduction to Computer Science course. I would also like to thank everyone who helped to make the CS50 course, as I would never have gotten this far without it.
