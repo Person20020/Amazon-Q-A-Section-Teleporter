@@ -30,7 +30,7 @@
 
     "content_scripts": [
         {
-            "matches": ["*://*.printables.com/*", "*://*.amazon.com/*/dp/*", "*://*.amazon.com/*/gp/*", "*://amazon.com/dp/*", "*://*.amazon.com/gp/*"],
+            "matches": ["*://*.amazon.com/*/dp/*", "*://*.amazon.com/*/gp/*", "*://amazon.com/dp/*", "*://*.amazon.com/gp/*"],
             "js": ["injectButton.js"],
             "run_at": "document_end"
         }
