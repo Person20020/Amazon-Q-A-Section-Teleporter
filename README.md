@@ -1,5 +1,5 @@
 # Amazon-Q-A-Section-Teleporter  
-### ⚠️As of August 10 2024, it seems that Amazon has removed the customer Q&A section altogether, and this plugin will no longer work.
+### ⚠️As of August 10 2024, it seems that Amazon has removed the customer Q&A page altogether, and this plugin will no longer work.
 
 With this Chrome extension, you can quickly and easily jump to the Amazon Customer Questions &amp; Answers page from the product page with a single click. Currently, the extension only works on the United States Amazon store page, but support for other countries will be coming soon. The extension has only been tested on Chrome, Brave, and Edge.
   
